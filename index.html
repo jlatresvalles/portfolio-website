@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script type = "text/javascript" src = "darkmode.js" defer></script>
+    <script type = "text/javascript" src = "resume-modal.js" defer></script>
 
     <title>Justin Tresvalles's Portfolio</title>
 </head>
@@ -70,6 +71,11 @@
                     <a href="#contact">
                         <i class="fa-solid fa-envelope"></i>
                         <span>Contact</span>
+                    </a>
+
+                    <a href = "#" class = "resume-button" onclick = "openModal()">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Resume</span>
                     </a>
                 </div>
             </div>
@@ -169,5 +175,13 @@
             </div>
          </section>
       </main>
+
+        <div id = "resumeModal" class = "modal">
+            <span class = "close" onclick = "closeModal()">&times;</span>
+
+            <div class = "modal-content">
+                <iframe src = "/files/resume.pdf"></iframe>
+            </div>
+        </div>
 </body>
 </html>
