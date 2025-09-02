@@ -448,4 +448,10 @@ nav .right svg:last-child {
     .contact-section {
         padding: 0 20px;
     }
+
+@media (max-width: 425px) {
+        nav .left {
+            margin-top: 25px;
+        }
+    }
 }
