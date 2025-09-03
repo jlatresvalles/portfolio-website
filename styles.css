@@ -480,6 +480,23 @@ body.modal-open nav {
         margin: 0 auto;
     }
 
+    .projects-section .project-cells .second-group {
+        flex-direction: column;
+    }
+
+    .projects-section .project-cells .second-group .project-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-section .project-cells .second-group .project-details .project-title {
+        margin-top: 15px;
+    }
+
+    .projects-section .project-cells .second-group .project-details img {
+        margin: 0 auto;
+    }
+
     /* SECTION 4: Contact */
     .contact-section .group {
         flex-direction: column;
