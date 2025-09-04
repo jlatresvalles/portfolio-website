@@ -257,6 +257,7 @@ nav .right svg:last-child {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
 .projects-section .project-cells .second-group .project-details {
@@ -286,6 +287,51 @@ nav .right svg:last-child {
 
 .projects-section .project-cells .second-group .project-details .project-title {
     font-weight: 700;
+}
+
+.projects-section .project-cells .third-group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.projects-section .project-cells .third-group .project-details {
+    text-align: center;
+    flex: 2;
+}
+
+.projects-section .project-cells .third-group .project-details img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.projects-section .project-cells .third-group .person-details p {
+    font-weight: 600;
+}
+
+.projects-section .project-cells .third-group .person-details p:last-child {
+    font-weight: normal;
+}
+
+.projects-section .project-cells .third-group .text {
+    flex: 8;
+}
+
+.projects-section .project-cells .third-group .project-details .project-title {
+    font-weight: 700;
+    display: block; /* Might have to remove next time */
+}
+
+.subtitle {
+    margin-top: 4px;
+}
+
+.pong {
+    margin-top: 20px;
 }
 
 /* SECTION 4: Contact */
@@ -494,6 +540,23 @@ body.modal-open nav {
     }
 
     .projects-section .project-cells .second-group .project-details img {
+        margin: 0 auto;
+    }
+
+    .projects-section .project-cells .third-group {
+        flex-direction: column;
+    }
+
+    .projects-section .project-cells .third-group .project-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-section .project-cells .third-group .project-details .project-title {
+        margin-top: 15px;
+    }
+
+    .projects-section .project-cells .third-group .project-details img {
         margin: 0 auto;
     }
 
